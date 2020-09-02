@@ -1,0 +1,349 @@
+/* CSS 初始化代码 CSS reset */
+/* 清除元素内外边距 */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* 清除li的列表样式 */
+li {
+    list-style: none;
+}
+/* 去掉button默认自带的边框 */
+button {
+    border: none;
+}
+a {
+    text-decoration: none;
+}
+/* 清除浮动 */
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+clearfix {
+    zoom: 1;
+}
+    *
+/* 版心宽度1200 水平居中*/
+.all {
+    width: 1200px;
+    margin: 0 auto;
+}
+/* 页面背景颜色 */
+body {
+    background-color: #f3f5f7;
+    /* height: 3000px; */
+}
+/* header start */
+.header {
+    width: 1200px;
+    height: 42px;
+    /* background-color: pink */
+    margin: 30px auto;
+}
+.logo {
+    float: left;
+}
+.nav {
+    float: left;
+    margin-left: 68px;
+}
+.nav ul li {
+    float: left;
+}
+.nav ul a {
+    display: block;
+    height: 40px;
+    margin-right: 20px;
+    padding: 0 10px;
+    line-height: 40px;
+    font-size: 18px;
+    color: #050505;
+    text-decoration: none;
+}
+/* 鼠标经过出现下边框 */
+.nav ul a:hover {
+    border-bottom: 2px solid #00a4ff;
+}
+.search {
+    float: left;
+    margin-left: 70px;
+
+}
+.search input {
+    float: left;
+    height: 40px;
+    width: 340px;
+    border: 1px solid #00a4ff;
+    border-right: 0;
+    padding-left: 20px;
+    /* border-radius: 4px; */
+    color: #ccc;
+}
+.search button {
+    float: left;
+    width: 50px;
+    height: 42px;
+    background: url(images/btn.png);
+}
+.user {
+    float: left;
+    height: 42px;
+    line-height: 42px;
+    margin-left: 30px;
+    font-size: 14px;
+    color: #666666;
+}
+/* header start */
+/* banner start */
+.banner {
+    height: 420px;
+    background-color: pink;
+    background: #1c036c url(images/banner2.jpg) no-repeat top center;
+}
+.subnav {
+    float: left;
+    width: 150px;
+    height: 420px;
+    background: rgba(0, 0, 0, .3);
+    padding: 0 20px;
+}
+.subnav ul li {
+    height: 45px;
+    line-height: 45px;
+}
+.subnav ul li a {
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+}
+.subnav ul li a:hover {
+    color: #00b4ff;
+}
+.subnav li a span {
+    float: right;
+    /* height: 45px; */
+}
+.course {
+    float: right;
+    width: 228px;
+    height: 300px;
+    background-color: #fff;
+    margin-top: 50px;
+}
+.course-title {
+    height: 48px;
+    background-color: #9bceea;
+    font-size: 18px;
+    text-align: center;
+    line-height: 48px;
+    color: #fff;
+    font-weight: 700;
+}
+.course-list {
+    padding: 0 15px;
+    padding-top: 10px;
+    /* margin-top: 25px; */
+    /* font-size: ; */
+    /* color: #666666; */
+}
+.course-list li {
+    height: 50px;
+    border-bottom: 1px solid #efefef;
+    margin-top: 10px;
+}
+.course-list li h4 {
+    font-size: 14px;
+    color: #4e4e4e;
+}
+.course-list li p {
+    font-size: 12px;
+    color: #a5a5a5;
+}
+.course-list a {
+    display: block;
+    height: 38px;
+    border: 1px solid #00a4ff;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #00a4ff;
+    text-align: center;
+    line-height: 38px;
+}
+.course-list a:hover {
+    background-color: #00a4ff;
+    color: #fff;
+}
+/* banner end */
+/* goods start */
+.goods {
+    height: 60px;
+    background-color: #fff;
+    margin-top: 10px;
+    line-height: 60px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .3);
+}
+.goods h3 {
+    float: left;
+    color: #00a4ff;
+    font-size: 16px;
+    margin: 0 30px;
+}
+.goods-list {
+    float: left;
+    color: #bfbfbf;
+    /* margin-left: 30px; */
+}
+.goods-list a {
+    font-size: 16px;
+    color: #050505;
+    margin: 0 30px;
+}
+.goods-mod {
+    float: right;
+    margin-right: 30px;
+    font-size: 14px;
+    color: #00a4ff;
+}
+/* goods end */
+/* box satrt */
+.box {
+    margin-top: 15px;
+}
+.box-title {
+    height: 60px;
+    line-height: 60px;
+    /* background-color: #fff; */
+}
+.box-title h3 {
+    float: left;
+    font-size: 20px;
+    color: #494949;
+    /* margin-left: 30px; */
+    font-weight: 400;
+
+}
+.box-title a {
+    float: right;
+    margin-right: 30px;
+    font-size: 12px;
+    color: #a5a5a5;
+}
+.box-list {
+    width: 1215px;
+}
+.box-list li {
+    float: left;
+    margin: 0 15px 15px 0;
+    width: 228px;
+    height: 270px;
+    background-color: #fff;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .3);
+}
+.box-list li img {
+    width: 100%;
+}
+.box-list li h4 {
+    margin: 20px 20px;
+    font-size: 14px;
+    color: #050505;
+    font-weight: 400;
+}
+.box-list li p {
+    margin: 0 20px;
+    font-size: 12px;
+    color: #999999;
+}
+.box-list li span {
+    color: orange;
+}
+/* box end */
+/* box114 start */
+.box-nubar {
+    float: left;
+    margin-right: 15px;
+}
+.box-listbar .box-listbanner {
+    float: left;
+}
+.box-listbar li {
+    float: left;
+    margin: 15px 15px 0 0;
+}
+/* box114 end */
+/* box 5 start */
+.box .box-title ul {
+    margin-left: 350px;
+    /* float: left; */
+    /* display: inline-flex */
+    /* text-align: center; */
+    /* display: inline-block; */
+    /* width: 1200px; */
+}
+.box .box-title li {
+    float: left;
+    margin-left: 70px;
+    font-size: 16px;
+    color: #868686;
+    /* display:inline; */
+}
+.box .box-title li span {
+    color: #00a4ff;
+}
+.box .box-title li a:hover {
+    color: #00a4ff;
+}
+/* box 5 end */
+/* footer start */
+.footer {
+    height: 300px;
+    padding-top: 40px;
+    background-color: #fff;
+}
+.copyright {
+    float: left;
+}
+.footer p {
+    margin: 20px 0 15px 0;
+    font-size: 12px;
+    color: #666666;
+}
+.app {
+    display: block;
+    width: 118px;
+    height: 34px;
+    border: 1px solid #00a4ff;
+    text-align: center;
+    line-height: 34px;
+    font-size: 14px;
+    color: #00a4ff;
+}
+.app:hover {
+    background-color: #00a4ff;
+    color: #fff;
+}
+.links {
+    float: right;
+}
+dl {
+    float: left;
+    margin-left: 100px;
+}
+dt {
+    height: 35px;
+    font-size: 16px;
+    color: #333;
+}
+dd {
+    font-size: 12px;
+    color: #333;
+}
+/* dl {
+    float: right;
+} */
+/* footer end */
+/* 二次提交样式 */
